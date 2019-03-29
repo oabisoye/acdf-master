@@ -1,0 +1,75 @@
+.acdf-menu {
+  text-transform: uppercase;
+  background: #323232;
+  color: #fff;
+  font-size: to-rem(13);
+  .navbar{
+    background: #323232;
+  }
+  .navbar-brand{
+    justify-content: center;
+  }
+  .navbar-burger{
+    span{
+      background: $white;
+    }
+  }
+  .navbar-item, .navbar-link{
+    color: #fff;
+    transition: all .3s ease;
+    &:hover{
+      background: transparent;
+      color: $secondary;
+    }
+  }
+}
+.acdf-nav-padded{
+  padding-right: 118px;
+  padding-left: 0;
+}
+.acdf-nav-logo{
+  min-width: 110px;
+  img{
+    max-height: 50px;
+  }
+}
+.nav-share-button{
+  background-image: linear-gradient(-180deg, #AB1026 0%, #ED0075 100%);
+  color: $white;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  transition: all .3s ease;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba($black, .8);
+  color: $white;
+  z-index: 5;
+  ul{
+    margin: 70px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+.mobile-nav-close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px;
+  font-size: 40px;
+  cursor: pointer;
+  line-height: 1;
+}
+.mobile-nav-item{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  color: $white;
+}

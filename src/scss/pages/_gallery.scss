@@ -1,0 +1,21 @@
+.gallery-top{
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.gallery-title{
+  font-size: 18px;
+}
+.gallery-search-input{
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  min-width: 250px;
+  &::placeholder{
+    color: $white;
+  }
+}

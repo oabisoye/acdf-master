@@ -1,0 +1,34 @@
+.app-loader{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 10;
+  &.site{
+    position: fixed;
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(/images/acdf-icon.svg) no-repeat center;
+    background-size: to-rem(80 80);
+    animation: pulse 3s infinite;
+  }
+}
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.2;
+  }
+  100%{
+    opacity: 1;
+  }
+}

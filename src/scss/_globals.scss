@@ -1,0 +1,17 @@
+
+// Fix for slick because of flex properties
+* {
+  min-height: 0;
+  min-width: 0;
+}
+html {
+  font-size: $base-font-size;
+  letter-spacing: 0.5px;
+}
+button, a{
+  cursor: pointer;
+  transition: all .3s ease;
+}
+input{
+  font-size: 14px;
+}

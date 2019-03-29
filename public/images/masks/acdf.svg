@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000.703px" height="364.865px" viewBox="0 0 1000.703 364.865" enable-background="new 0 0 1000.703 364.865"
+	 xml:space="preserve">
+<symbol  id="a" viewBox="-149.167 -130 298.333 258.364">
+	<polygon fill="#333333" points="0.004,-13.167 67.266,-129.666 149.167,-129.666 0.004,128.699 -149.167,-129.666 
+		-67.257,-129.666 	"/>
+	<polygon display="none" fill="none" points="-150,128 150,128 150,-130 -150,-130 	"/>
+</symbol>
+<symbol  id="c" viewBox="-120.566 -129.181 241.133 258.361">
+	<path fill="#333333" d="M120.566-64.437L8.958-0.001l111.608,64.434C98.244,103.122,56.49,129.181,8.615,129.181
+		c-71.342,0-129.181-57.832-129.181-129.182c0-71.344,57.839-129.18,129.181-129.18C56.49-129.181,98.244-103.122,120.566-64.437z"
+		/>
+	<polygon display="none" fill="none" points="-121,129 121,129 121,-129 -121,-129 	"/>
+</symbol>
+<symbol  id="d" viewBox="-95.963 -130.5 191.926 261">
+	<path fill="#333333" d="M-33.236,129.879c-3.102,0-6.143,0.621-9.186,0.621h-53.541v-261h62.418c0.109,0,0.221,0,0.328,0
+		c71.342,0,129.18,59.439,129.18,130.787S38.107,129.879-33.236,129.879z"/>
+</symbol>
+<symbol  id="f" viewBox="-95 -127 190 253">
+	<polygon fill="#333333" points="94.883,126.081 -95.117,126.081 -95.117,44.081 94.883,44.081 	"/>
+	<polygon fill="#333333" points="72.883,10.081 -95.117,10.081 -95.117,-41.806 -95.117,-74.048 -95.117,-126.919 -14.117,-126.919 
+		-14.117,-71.919 72.883,-71.919 	"/>
+	<polygon display="none" fill="none" points="-95,126 95,126 95,-127 -95,-127 	"/>
+</symbol>
+<g>
+	<use xlink:href="#f"  width="190" height="253" x="-95" y="-127" transform="matrix(1 0 0 -1 854 182)" overflow="visible"/>
+	
+		<use xlink:href="#a"  width="298.333" height="258.364" x="-149.167" y="-130" transform="matrix(1 0 0 -1 201 182)" overflow="visible"/>
+	
+		<use xlink:href="#d"  width="191.926" height="261" x="-95.963" y="-130.5" transform="matrix(1 0 0 -1 653.6338 182.4326)" overflow="visible"/>
+	
+		<use xlink:href="#c"  width="241.133" height="258.361" x="-120.566" y="-129.181" transform="matrix(1 0 0 -1 427 183)" overflow="visible"/>
+</g>
+</svg>

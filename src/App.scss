@@ -1,0 +1,21 @@
+@import "../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@import "scss/functions";
+@import "scss/variables";
+@import "scss/framework";
+@import "scss/helpers";
+@import "scss/globals";
+@import "scss/share";
+@import 'scss/page-transitions';
+
+@import "scss/components/zoom-slider";
+@import 'scss/components/imagegallery';
+@import 'scss/components/app-loader';
+@import 'scss/components/navbar';
+@import 'scss/components/gradient-wrapper';
+
+@import 'scss/pages/home';
+@import 'scss/pages/create';
+@import 'scss/pages/gallery';

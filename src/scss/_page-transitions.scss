@@ -1,0 +1,15 @@
+.page_route-enter {
+  opacity: 0.01;
+  &.page_route-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+}
+
+.page_route-leave {
+  opacity: 1;
+  &.page_route-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
+}

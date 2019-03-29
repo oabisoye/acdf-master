@@ -1,0 +1,18 @@
+
+@mixin show-transition{
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s ease 0s, opacity 300ms;
+}
+
+@mixin hide-transition{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s ease 300ms, opacity 300ms;
+}
+.show-ease{
+  @include show-transition;
+}
+.hide-ease{
+  @include hide-transition;
+}

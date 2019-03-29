@@ -1,0 +1,31 @@
+.gradient-wrapper{
+  //background-image: linear-gradient(-180deg, #440015 0%, #540066 100%);
+  background-image: linear-gradient(45deg, #AB1026, #ED0075, #453A94, #D43F8D, #2D2B7B, #0076AE, #3E883F, #B4BC22);
+  background-size: 2000% 2000%;
+  animation: bg-gradient-anim 60s ease infinite;
+  color: #fff;
+  .acdf-menu{
+    background: transparent;
+  }
+  .navbar{
+    background: transparent;
+  }
+  .nav-share-button{
+    background-image: linear-gradient(-180deg, #2D2B7B -20%, #0076AE 120%);
+  }
+  .title, .subtitle{
+    color: #ffffff;
+  }
+}
+
+@keyframes bg-gradient-anim {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
